@@ -1,0 +1,91 @@
+🔹 Self Introduction
+
+“Good morning sir/ma’am. My name is Abhishek A. I am currently pursuing MCA at Presidency College, and I completed my BCA from MS Ramaiah College of Arts, Science, and Commerce.
+
+I started my journey with web development using HTML and CSS, and one of my first projects was a Paytm Clone website, where I focused on creating a responsive and user-friendly design. Later, I moved into JavaScript, where I built small but powerful projects like a Dice Game and the Simon Game. These projects helped me understand concepts like randomness, arrays, DOM manipulation, events, and game logic.
+
+Apart from web development, I also explored Data Science with Python. My major project was an AI Resume Screening System, where I used Natural Language Processing techniques like spaCy and BERT to analyze resumes and rank them based on job requirements. I built a Flask-based web app to make it user-friendly for recruiters.
+
+Currently, I am learning Node.js and React to move towards full stack development. I am very passionate about building projects, solving real-world problems, and continuously improving my skills. I believe this role is a great opportunity to apply my knowledge, grow in the full stack domain, and contribute effectively to your team.”
+
+🔹 HTML & CSS
+
+Q: What is the difference between inline, internal, and external CSS?
+
+“Inline CSS is written directly inside the HTML element using the style attribute, and it affects only that element. Internal CSS is written inside the <style> tag within the HTML file’s head section, and it affects only that particular page. External CSS is written in a separate .css file, and we link it to HTML using a <link> tag. External CSS is considered the best practice because it makes the code reusable and easier to maintain.”
+
+Q: Can you explain the CSS Box Model?
+
+“In CSS, every element is treated as a rectangular box, and this is explained by the Box Model. It has four parts:
+
+The innermost part is Content, which contains the actual text or image.
+
+Next is Padding, which is the space between the content and the border.
+
+Then comes the Border, which surrounds the padding and content.
+
+Finally, we have Margin, which is the outer space separating this element from other elements.
+Understanding the box model is important for proper spacing, alignment, and layout design.”
+
+Q: How did you make your Paytm Clone responsive?
+
+“I used CSS Flexbox to arrange elements in a flexible way. I also used media queries to apply different styles for different screen sizes like desktop, tablet, and mobile. Instead of using fixed pixel values, I used percentage-based widths and relative units. This made sure that the layout automatically adjusted and provided a smooth experience on all devices.”
+
+🔹 JavaScript
+
+Q: Difference between var, let, and const?
+
+“In JavaScript, var is function-scoped, and it allows re-declaration, which sometimes causes bugs, so it is less preferred now. let is block-scoped and can be updated but not re-declared, so it is generally used for variables that change values. const is also block-scoped, but it cannot be updated or re-declared, so it is used for fixed values like constants. Nowadays, we mostly use let and const.”
+
+Q: Difference between == and ===?
+
+“== is called loose comparison, which checks only values and ignores data types. For example, 5 == "5" will return true. === is strict comparison, which checks both value and data type, so 5 === "5" will return false. It is always better to use === in real projects to avoid unexpected errors.”
+
+Q: What is asynchronous JavaScript?
+
+“Asynchronous JavaScript means the program does not wait for slow tasks to finish, like fetching data from a server. Instead, other code continues running, and the result is handled later. For example, when we make an API call, the program doesn’t freeze, it continues to run. We can handle asynchronous tasks using callbacks, promises, or async/await in JavaScript.”
+
+🔹 Node.js & Express
+
+Q: What is Node.js?
+
+“Node.js is a runtime environment that allows JavaScript to run outside the browser. It is built on the V8 engine. Normally, JavaScript runs only inside the browser, but Node.js lets us use it on the server side also. It is widely used for building backend servers, APIs, and even real-time applications.”
+
+Q: What is Express.js?
+
+“Express.js is a lightweight framework for Node.js. It makes building web applications and APIs much simpler. Express provides features like routing, middleware handling, and easy request and response management. Without Express, writing server code in Node would take more time and lines of code.”
+
+Q: What is npm?
+
+“npm stands for Node Package Manager. It is used to install and manage packages and libraries in Node.js projects. For example, if we want to use Express in our project, we just run npm install express. It saves time by allowing us to use existing tools instead of writing everything from scratch.”
+
+🔹 React.js
+
+Q: What is React and why is it used?
+
+“React is a JavaScript library developed by Facebook for building user interfaces. It is mainly used for single-page applications where the page doesn’t reload every time. React makes web apps faster using Virtual DOM, reusable with components, and easier to maintain by separating UI logic into smaller parts.”
+
+Q: What are props and state?
+
+“Props are short for properties. They are used to pass data from a parent component to a child component, and they are read-only, meaning they cannot be changed by the child. State is local data that belongs to a component and can change over time. For example, in a counter app, the number displayed is stored in state, and every button click updates that state.”
+
+Q: What is JSX?
+
+“JSX stands for JavaScript XML. It allows us to write HTML-like syntax inside JavaScript code. For example, instead of writing React.createElement('h1', {}, 'Hello'), we can simply write <h1>Hello</h1>. JSX makes the code more readable and easier to write, and under the hood it gets converted into JavaScript.”
+
+🔹 Projects
+1️⃣ Paytm Clone
+
+“I developed a Paytm Clone website using HTML and CSS. The aim was to replicate the Paytm interface with a focus on layout and responsiveness. I used Flexbox and media queries so that the website looked good on desktop, tablet, and mobile. I also paid attention to consistent styling and navigation. This project improved my CSS design skills. If I had more time, I would add interactivity using JavaScript, such as login validation and transaction simulation.”
+
+2️⃣ Dice Game
+
+“I created a Dice Rolling Game using HTML, CSS, and JavaScript. The game generates two random numbers between 1 and 6 using Math.random(), and displays the respective dice images. The player clicks a button to roll the dice, and the winner is decided based on the higher value. I practiced DOM manipulation using document.querySelector and event handling through button clicks. If I had more time, I would add score tracking and multiplayer mode.”
+
+3️⃣ Simon Game
+
+“I developed the Simon Game using HTML, CSS, and JavaScript. The game shows a sequence of colors that the player has to repeat in the correct order. With each level, the sequence gets longer. I used arrays to store the game pattern and the user’s pattern, and compared them step by step. I also used event listeners to detect button clicks and setTimeout() to add delays. This project taught me about arrays, loops, condition checking, and creating interactive user experiences. If I had more time, I would add difficulty levels, high scores, and sound effects.”
+
+4️⃣ AI Resume Screening System
+
+“I built an AI Resume Screening System using Python and NLP techniques. I used libraries like spaCy and BERT to extract skills, keywords, and experience from resumes. Then I compared them with job requirements to generate a relevance score. To make it user-friendly, I developed a Flask web app where recruiters could upload resumes and see the ranking. This project improved my understanding of data preprocessing, embeddings, and deployment of machine learning models. It showed me how AI can be applied to real-world recruitment problems.”

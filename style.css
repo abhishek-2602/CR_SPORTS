@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  width: 100%;
+  overflow: hidden;
+}
+.nav-bar{
+    background-color: #006400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.nav-links{
+    color: white;
+    list-style: none;
+    margin-right: 20px;
+
+}
+.nav-headers{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    transform: none;
+}
+.nav-headers li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-headers li a:hover{
+    color: #FFA500;
+}
+.main {
+  background: url('./1088580.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 100vh;   /* instead of fixed height */
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: relative;  /* was absolute – REMOVE */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  
+    font-size: 50px;
+    text-shadow: 0 0 5px #ffffff, 0 0 5px #00ffcc;
+    transition: all 0.3s ease;
+    
+}
+h1:hover{
+  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+.tag-line {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  color: red;
+  border-radius: 50px;
+}
+
+.button{
+    display: inline-block;
+    background-color: #FFA500;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+}
+.button:hover{
+    color: red;
+}
+.programs {
+  margin-top:  10px;
+  padding: 60px 20px;
+  background-color: 	#e6f0ff;
+  text-align: center;
+  border-radius: 15px;
+  
+}
+
+.programs-heading h2 {
+  color: #32CD32;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.programs-heading p {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  color: #333;
+  font-size: 16px;
+}
+
+
+
+.program-card {
+  background: white;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.program-card h3 {
+  font-size: 24px;
+  color: #00539C;
+  margin-bottom: 15px;
+}
+
+.program-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.program-card ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #444;
+}
+#about{
+  padding:20px 20px ;
+  
+  text-align: center;
+}
+.about-us{
+  background-color: #f0f9ff;
+  padding: 60px 20px;
+  border-radius: 15px;
+}
+.about-us h2{
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #32CD32;
+}
+.about-us p {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px 35px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 16px;
+}
+#Tournaments{
+  padding: 20px 20px;
+  background-color: white;
+  text-align: center;
+}
+.tournaments{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+.tournaments-container{
+  background-color: #fff7ed;
+  padding: 60px 20px;
+  border-radius: 15px;
+}
+.tournaments h2{
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #32CD32;
+}
+.tournaments-boxes{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.tournaments-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+.tournaments-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.tournaments-card h3 {
+  color: #00539C;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.tournament-card p {
+  font-size: 1em;
+  color: #555;
+}
+#contact{
+  padding: 20px 20px;
+  background-color: white;
+  text-align: center;
+}
+.contact-us{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #32CD32;
+}
+.contact-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; 
+  margin-top: 20px;
+  flex-wrap: wrap; 
+} 
+
+.contact-list li{
+  list-style: none;
+  
+}
+.insta-logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+footer{
+  background-color: #002D26;
+  padding: 15px 20px;
+  color: white;
+  text-align: center;
+}

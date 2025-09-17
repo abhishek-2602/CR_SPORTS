@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR Sports</title>
+    <link rel="stylesheet" href="style.css">
+    <style> @media (max-width: 768px) {
+        .nav-bar {
+          position: sticky;
+          top: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .nav-headers {
+          flex-direction: column;
+          gap: 10px;
+          margin: 10px 0 0 20px;
+        }
+        .main {
+          height: auto;
+          padding: 100px 20px;
+          position: relative;
+        }
+        h1 {
+          font-size: 2em;
+        }
+        .programs-heading h2,
+        .about-us h2,
+        .tournaments h2,
+        .contact-us {
+          font-size: 2em;
+        }
+        .program-card,
+        .about-us p,
+        .tournaments-card {
+          margin: 20px 10px;
+        }
+        .tournaments-boxes {
+          flex-direction: column;
+          gap: 20px;
+        }
+        .button {
+          margin-top: 30px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+  .tag-line {
+    width: 90%;
+    margin: 10px auto;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+      @media (max-width: 480px) {
+        
+        .logo {
+          width: 70px;
+          height: 70px;
+        }
+        .nav-headers {
+          gap: 5px;
+        }
+        .main h1 {
+          font-size: 1.8em;
+        }
+        .tag-line{
+        font-size: 14px;
+        padding: 8px;
+        }
+        .button {
+          padding: 8px 20px;
+          font-size: 14px;
+        }
+      }</style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-logo">
+            <img class="logo"  src="./cr_sports.jpeg"  alt="CR-Sports">
+        </div>
+        <div class="nav-links">
+            <ul class="nav-headers">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Tournaments">Tournaments</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="main">
+        <h1 class="main-h1">Welcome To CR Sports</h1>
+        <p class="tag-line">Train,  Play,  Succeed. Enroll today and become the future star of cricket!</p>
+        <a href="#programs" class="button">View Programs</a>
+    </div>
+   <section class="programs" id="programs">
+  <div class="programs-heading">
+    <h2>Our Programs</h2>
+    <p>At [CR Sports], we offer specially designed training programs for different age groups and skill levels. Whether your child is just starting out or looking to take their game to the next level, we have a program to match. Our expert coaches focus on core techniques, fitness, discipline, and match awareness. We offer U-10, U-14, U-17, and advanced-level training with structured coaching plans and regular practice matches to ensure all-round development.</p>
+  </div>
+
+  
+  <div class="program-card">
+    <h3> Regular Weekday Camps</h3>
+    <ul>
+      <li><strong>Days:</strong> Monday to Friday</li>
+      <li><strong>Timings:</strong> 6:30 AM to 8:30 AM <br> 4:30 PM to 6:30 PM</li>
+      <li><strong>Fee:</strong> ₹34,000</li>
+      <li><strong>For Registration: </strong><em>contact: </em>9110635156</li>
+      <li><em>Transport available at extra cost</em></li>
+      
+    </ul>
+  </div>
+
+  <div class="program-card">
+    <h3> Regular Weekend Camps</h3>
+    <ul>
+      <li><strong>Days:</strong> Saturday & Sunday</li>
+      <li><strong>Timings:</strong></li>
+      <ul>
+        <li>Morning: 6:30 AM – 8:30 AM</li>
+        <li>Afternoon: 2:00 PM – 4:00 PM</li>
+        <li>Evening: 4:30 PM - 6:30 PM</li>
+      </ul>
+      <li><strong>Fee:</strong> ₹22,000</li>
+    </ul>
+  </div>
+
+  <div class="program-card">
+    <h3> Annual Package for all Days</h3>
+    
+    <ul>
+      <li><strong> Days: </strong> Monday to Sunday</li>
+      <li><strong>Fee: </strong>₹43,000 </li>
+    </ul>
+  </div>
+  <div class="program-card">
+    <h3>Personal Sessions</h3>
+    <p>One-on-One Coaching is Available </p>
+  </div>
+</section>
+<section id="about">
+  <div class="about-us">
+    <h2>About us</h2>
+    <p>We are a passionate team committed to building the next generation of cricket players. Our academy offers a supportive and structured environment where players can grow through expert coaching, regular practice sessions, and tournaments. With a focus on character, commitment, and consistency, we aim to bring out the best in every player.</p>
+  </div>
+</section>
+
+<section id="Tournaments">
+  <div class="tournaments">
+    <h2>Our Tournaments</h2>
+    <div class="tournaments-container">
+    <p class="tournaments-intro">We don't just train players — we provide a real competitive platform! Our academy proudly hosts regular tournaments at local, state, and even international levels. With visiting teams from countries like <strong>Sri Lanka</strong>, <strong>South Africa</strong>, and more, our matches bring world-class exposure to our young talents.</p>
+    
+    <div class="tournaments-boxes">
+      
+      <div class="tournaments-card">
+        <h3>Inter-Academy League</h3>
+        <p>Face off against top academies in high-intensity league matches held every month.</p>
+      </div>
+      
+      <div class="tournaments-card">
+        <h3>International Friendly Tours</h3>
+        <p>Compete with visiting teams from Sri Lanka, South Africa, and beyond. Build confidence with global exposure.</p>
+      </div>
+      
+      <div class="tournaments-card">
+        <h3>Annual Mega Tournament</h3>
+        <p>Our flagship event featuring dozens of teams, grand prizes, and massive crowds — a true festival of cricket!</p>
+      </div>
+
+    </div>
+    <br>
+    <p class="tournaments-note"><strong>Note: </strong>Whether you're a beginner or a rising star, our tournaments help you gain real match experience, develop team spirit, and shine on the big stage.</p>
+  </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="contact-us">
+    <h2>Contact us</h2></div>
+  <div class="contact-list">
+  <ul>
+    <li> <strong>+91 9110635156 </strong></li> <br> <hr> <br>
+    <li><a href="https://www.instagram.com/_cr.sports_?igsh=NHk5OG1zMTk0MGZ3 "><img class="insta-logo" src="./OIP.jpeg" alt=""></a> </li>
+  </ul>
+  </div>
+  
+</section>
+<footer>&copy; CR Sports</footer>
+
+
+
+    
+</body>
+</html>
