@@ -1,24 +1,89 @@
-# CR_SPORTS
-A responsive landing page for CR Sports Cricket Academy, built using HTML and CSS. The site showcases the academy’s programs, about section, tournaments, and contact details with a clean and mobile-friendly design. It is intended as a static website that can be hosted easily on GitHub Pages.
+Ton Cricket Academy – Official Website
+
+A fully responsive and modern website developed for Ton Cricket Academy to showcase programs, facilities, tournaments, gallery, and contact details. This project was developed as a freelance frontend project and deployed using Netlify.
+
+Live Demo
+
+Website:
+https://toncricketacademy.netlify.app/
+
+Project Overview
+
+The website provides a professional online presence for Ton Cricket Academy. It highlights training programs, academy facilities, tournaments, gallery, and contact information in a clean and user-friendly layout.
 
 Features
 
-1.Responsive layout for desktop and mobile.
+Responsive navigation bar for desktop and mobile
 
-2.Hero section with call-to-action.
+Hero section with image slider
 
-3.Programs section with multiple package options.
+Detailed programs and pricing information
 
-4.About section with academy philosophy.
+Dedicated gallery page with responsive CSS Grid layout
 
-5.Tournaments section with event details.
+About section with founder information
 
-6.Contact section with phone number and Instagram link.
+Tournament highlights section
 
-7.Clean design using plain HTML and CSS.
+Embedded Google Maps for location
 
-8.Tech Stack
+Contact section with WhatsApp and Instagram integration
 
-9.HTML5
+Deployed and hosted on Netlify
 
-9.CSS3
+Tech Stack
+
+HTML5
+
+CSS3
+
+JavaScript (Vanilla)
+
+CSS Grid and Flexbox
+
+Netlify (Deployment and Hosting)
+
+Project Structure
+├── index.html        # Main website
+├── gallery.html      # Gallery page
+├── style.css         # Global styles
+├── gallery.css       # Gallery-specific styles
+├── script.js         # JavaScript logic
+├── gallery/          # Gallery images
+├── logo.jpeg         # Academy logo
+└── README.md
+
+Key Implementation Details
+
+Section-based layout using reusable .content-section classes
+
+Responsive gallery implemented using CSS Grid with auto-fit and minmax
+
+Clean separation of main content and gallery page
+
+Lightweight JavaScript for UI interactions
+
+Optimized for performance and maintainability
+
+Deployment
+
+The website is deployed using Netlify with continuous deployment.
+
+Deployment steps:
+
+Project pushed to GitHub
+
+Repository connected to Netlify
+
+Automatic deployment on updates
+
+Developer
+
+Designed and Developed by:
+Abhishek A
+
+Frontend Developer with a focus on clean UI, responsive design, and maintainable code.
+
+Usage
+
+This website is intended for official use by Ton Cricket Academy for promotion, information sharing, and branding.
